@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: default
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/orgs/janus-qe/teams/rhdh-qe-2-team
+    backstage.io/managed-by-origin-location: url:https://github.com/orgs/janus-qe/teams/rhdh-qe-2-team
+    backstage.io/view-url: https://github.com/orgs/janus-qe/teams/rhdh-qe-2-team
+    backstage.io/edit-url: https://github.com/orgs/janus-qe/teams/rhdh-qe-2-team/edit
+    backstage.io/source-location: url:https://github.com/orgs/janus-qe/teams/
+    github.com/team-slug: janus-qe/rhdh-qe-2-team
+  name: rhdh-qe-2-team
+  description: Used for CI test. Please do not delete
+  uid: 076af092-cd68-4102-a303-2f8dfa0218c8
+  etag: 19504284b4b150b4bba188dfcfafea69eb79be71
+relations:
+  - type: hasMember
+    targetRef: user:default/rhdh-qe-2
+spec:
+  type: team
+  profile:
+    displayName: rhdh-qe-2-team
+    picture: https://avatars.githubusercontent.com/t/10845770?s=400&v=4
+  children: []
+  members:
+    - default/rhdh-qe-2
