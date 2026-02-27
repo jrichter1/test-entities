@@ -12,9 +12,6 @@ metadata:
   name: rhdh-qe-2
   uid: 0be50a7d-9dc1-439e-aa9a-20b050f3c898
   etag: 84bea2e3b2870409fa4f9c6ff222fbaffa1aa4bc
-relations:
-  - type: memberOf
-    targetRef: group:default/rhdh-qe-2-team
 spec:
   profile:
     picture: https://avatars.githubusercontent.com/u/177000764?v=4
