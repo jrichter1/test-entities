@@ -13,9 +13,6 @@ metadata:
   description: Used for CI test. Please do not delete
   uid: 076af092-cd68-4102-a303-2f8dfa0218c8
   etag: 19504284b4b150b4bba188dfcfafea69eb79be71
-relations:
-  - type: hasMember
-    targetRef: user:default/rhdh-qe-2
 spec:
   type: team
   profile:
